@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Airo Power</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -17,21 +18,39 @@
     <div class="nav-bar">
       <nav>
         <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Products</li>
-          <li>Contact</li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero" id="home">
       <div class="hero-text">
+        <span class="hero-badge">Trusted Energy Partner</span>
         <h2>Powering the Future</h2>
-        <p>Advanced Lithium Solutions for Every Industry</p>
-        <button>Explore Products</button>
+        <p>Advanced lithium solutions designed for electric vehicles, solar storage, and industrial power systems.</p>
+        <div class="hero-actions">
+          <button class="btn-primary">Explore Products</button>
+          <button class="btn-secondary">Request Quote</button>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-card">
+          <strong>25+</strong>
+          <span>Years Experience</span>
+        </div>
+        <div class="stat-card">
+          <strong>500+</strong>
+          <span>Projects Delivered</span>
+        </div>
+        <div class="stat-card">
+          <strong>98%</strong>
+          <span>Customer Satisfaction</span>
+        </div>
       </div>
     </section>
 
@@ -184,5 +203,12 @@
     </div>
     <p class="footer-copy">&copy; 2026 Airo Power. All rights reserved.</p>
   </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/917564873705?text=Hi%20Airo%20Power%20team%2C%20I%20would%20like%20to%20know%20more%20about%20your%20products." target="_blank" rel="noopener noreferrer" aria-label="Chat with Airo Power on WhatsApp">
+    <svg class="whatsapp-icon" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4.5 4.5h15a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H7.2l-3 2.4V5.5a1 1 0 0 1 1-1Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="M8.5 9.5h7M8.5 13.5h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </a>
 </body>
 </html>
